@@ -1,0 +1,113 @@
+body {
+	background-image:url(zdjecia/tlo-lista.jpg);
+	font-family:Bahnschrift;
+	color:white;
+	
+}
+background-image {
+	filter:blur(5px);
+}
+.cien {
+	box-shadow:4px 4px 0px #FFFFFF;
+}
+
+#bialo {
+    transform: scale(0.8);
+    transition-duration: 0.1s;
+    display: block;
+	filter:drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white);
+}
+#bialo:hover {
+    transform: scale(0.9);
+	filter: drop-shadow(0px 0px 7px white) drop-shadow(0px 0px 5px white) drop-shadow(0px 0px 5px white);
+}
+#zloto {
+	transform: scale(0.8);
+    transition-duration: 0.1s;
+    display: block;
+	filter:drop-shadow(0px 0px 7px gold) drop-shadow(0px 0px 7px gold);
+}
+#zloto:hover {
+    transform: scale(0.9);
+	filter: drop-shadow(0px 0px 20px gold) drop-shadow(0px 0px 20px gold);
+}
+#marka {
+	display: block;
+	filter:drop-shadow(0px 0px 7px white) drop-shadow(0px 0px 7px white);
+}
+
+
+
+.pulsate {
+	animation: pulsate 1s;
+	animation-iteration-count: infinite;
+	font-size:40px;
+	opacity: 1;
+}
+
+@-webkit-keyframes pulsate {
+0% {opacity: 1; text-shadow: 0px 0px 4px #FFFFFF;}
+50% {opacity: 0.5; text-shadow: 0px 0px 0px #FFFFFF;}
+100% {opacity: 1; text-shadow: 0px 0px 4px #FFFFFF;}
+}
+
+
+#model {
+	size:30%;
+}
+
+
+
+
+
+#logo{
+	background-color:black;
+	padding:20px;
+	text-align:center;
+}
+#choose {
+	background-color:#363636;
+	font-size:23px;
+	padding:10px;
+	text-align:center;
+}
+
+#zlotowo {
+	background-color:#363636;
+	font-size:15px;
+	color:gold;
+	padding:2px;
+	text-align:center;
+}
+#container {
+	width:1500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#nav {
+	float:left;
+	background-image:url(zdjecia/lewo.jpg);
+	width:120px;
+	min-height:1527px;
+	padding:10px;
+}
+#content {
+	float:left;
+	padding:20px;
+	width:1180px;
+	font-size:18px;
+}
+#ad {
+	float:right;
+	width:120px;
+	min-height:1527px;
+	padding:10px;
+	background-image:url(zdjecia/prawo.jpg);
+}
+#footer {
+	clear:both;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:20px;
+}
